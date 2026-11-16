@@ -184,10 +184,6 @@ Add screenshots of the application before submission.
 
 ![Route Planning](screenshots/route-planner.png)
 
-### NASA Imagery
-
-![Imagery](screenshots/imagery.png)
-
 ---
 
 ## Super Intelligence (SI) Disclosure
