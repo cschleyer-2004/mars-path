@@ -81,7 +81,6 @@ git clone "https://github.com/cschleyer-2004/mars-path"
 cd mars-path
 ```
 
-Replace `YOUR_USERNAME` with your GitHub username.
 
 ---
 
@@ -128,22 +127,30 @@ http://localhost:8080/api/v1/mars/locations
 ## Project Structure
 
 ```text
-src/
-└── main/
-    ├── java/
-    │   ├── controller/
-    │   ├── model/
-    │   └── service/
-    │
-    └── resources/
-        ├── data/
-        │   └── locations.json
-        │
-        └── static/
-            ├── maps/
-            ├── styles.css
-            ├── script.js
-            └── index.html
+src/main/
+├── java/
+│   └── com.nasacyberchallengeapp/
+│       ├── controller/
+│       ├── model/
+│       │   ├── Bounds.java
+│       │   └── Location.java
+│       ├── repository/
+│       ├── service/
+│       └── App.java
+│
+├── resources/
+│   ├── data/
+│   │   └── locations.json
+│   │
+│   ├── static/
+│   │   ├── maps/
+│   │   ├── script.js
+│   │   └── styles.css
+│   │
+│   └── templates/
+│       └── index.html
+│
+pom.xml
 ```
 
 ---
