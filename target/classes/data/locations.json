@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "slug": "jezero-crater",
+    "name": "Jezero Crater",
+    "mapFile": "/maps/JEZ_ctx_B_soc_008_orthoMosaic_6m_Eqc_latTs0_lon0.png",
+    "latitude": 18.38,
+    "longitude": 77.58,
+    "region": "Northern Hemisphere",
+    "status": "Rover Exploration",
+    "description": "An ancient lake basin explored by NASA's Perseverance rover.",
+    "interest": "Ancient water activity, sediment deposits, and evidence of past habitability.",
+    "terrainType": "Ancient River Delta",
+    "scienceValue": "High",
+    "radiationRisk": "Moderate",
+    "recommendedTransport": "Crew Rover",
+    "dataSource": "MRO CTX Jezero Mosaic",
+    "sourceUrl": "https://trek.nasa.gov/mars/TrekWS/rest/cat/metadata/fgdc/html?label=JEZ_ctx_B_soc_008_orthoMosaic_6m_Eqc_latTs0_lon0",
+    "sourceResolution": "6 m/pixel",
+    "bounds": {
+      "west": 77.16047,
+      "east": 77.69898,
+      "south": 18.21103,
+      "north": 18.72119
+    }
+  },
+  {
+    "id": 2,
+    "slug": "gale-crater",
+    "name": "Gale Crater",
+    "mapFile": "/maps/Gale_CTX_BlockAdj_dd.png",
+    "latitude": -5.4,
+    "longitude": 137.8,
+    "region": "Southern Hemisphere",
+    "status": "Rover Exploration",
+    "description": "A large impact crater explored by NASA's Curiosity rover.",
+    "interest": "Ancient environments, sedimentary rocks, and geological history.",
+    "terrainType": "Impact Crater and Ancient Lakebed",
+    "scienceValue": "High",
+    "radiationRisk": "Moderate",
+    "recommendedTransport": "Crew Rover",
+    "dataSource": "MRO CTX, Gale Crater Mosaic",
+    "sourceUrl": "https://trek.nasa.gov/mars/",
+    "sourceResolution": null,
+    "bounds": null
+  },
+  {
+    "id": 3,
+    "slug": "olympus-mons",
+    "name": "Olympus Mons",
+    "mapFile": "/maps/olympus_mons.eq.png",
+    "latitude": 18.65,
+    "longitude": 226.2,
+    "region": "Tharsis Region",
+    "status": "Research Site",
+    "description": "The largest known volcano in the Solar System.",
+    "interest": "Volcanic geology and planetary surface evolution.",
+    "terrainType": "Massive Shield Volcano",
+    "scienceValue": "High",
+    "radiationRisk": "Moderate",
+    "recommendedTransport": "Crew Rover",
+    "dataSource": "MRO CTX, Mosaic Olympus Mons",
+    "sourceUrl": "https://trek.nasa.gov/mars/TrekWS/rest/cat/metadata/fgdc/html?label=olympus_mons.eq",
+    "sourceResolution": null,
+    "bounds": {
+      "west": 224.0,
+      "east": 236.0,
+      "south": 12.0,
+      "north": 24.0
+    }
+  }
+]
